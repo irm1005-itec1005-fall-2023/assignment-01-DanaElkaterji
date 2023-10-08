@@ -1,60 +1,174 @@
 <!DOCTYPE html>
 <html lang="en-ca">
-  <head>
-    <!-- Set the page title -->
-    <title>Assignment 01 - To Be Completed</title>
+<head>
+  <meta charset="utf-8">
+  <title>Title of the page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!-- Set the charset we're using to UTF-8 -->
-    <meta charset="UTF-8" />
+  <link rel="stylesheet" href="./style.css">
+  
+</head>
+<body>
+  <header><h2> MY ART GALLERY</h2>
+    <img class="logo" src="/images/letterdmini.png" alt="Company Logo" />
+  </header>
 
-    <!-- Set the screens default zoom / scale to 1 -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <main>
 
-    <!-- Specifies the document mode for Internet Explorer -->
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+    <div class="hero-image">
+      <img src="/images/birdydana.jpg" alt="hero"/>
+        <h4>welcom to my web page!</h4>
+        <p>This art gallery is fully made by by Dana Elkaterji</p>
+      </div>
+   
+      <section class="Content1"> 
+        <h2>Do Not</h2>
+        <p>The Art Gallery focuses on creative digital drawing made by Dana Elkaterji</p>
+        <img src="/images/donot.png" alt="do not"/>
+        <blockquote>
+          <p>The Do Not is an image of a chocolate doughnut with pink glase and lots of sprinkles.
+            It is called Do Not as in Do Not eat it because it's not real. 
+            the Do Not was made in 2022 by Dana ELkaterji using blender an online websit that
+            makes 3d animation.
+          </p>
+        </blockquote> 
+        <table>
+          <thead>
+            <tr>
+              <th>Starting Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>$100</td>
+            </tr>
+          </tbody>
+        </table>
+        <button>Like</button> <button>Dislike</button>  
+    </section>
+    <section class="Content3">
+      <h2>Dream Cup</h2> 
+      <img src="/images/dreamcup.png" alt="dream cup"/>
+       <blockquote>
+        <p>This art work is called the dream cup. the art work includes a cup with a painting
+      palet that is filled with a variety of chocolate dip for the doughnut that is placed un top of the 
+      cup.The dream cup was made in 2023 using adobe illustrator.
+        </p>
+      </blockquote> 
+        
+      <table>
+        <thead>
+          <tr>
+            <th>Starting Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>$200</td>
+          </tr>
+        </tbody>
+      </table>
+      <button>Like</button> <button>Dislike</button>
+    </section>
+    <section class="Content2">
+      <h2>living room</h2>
+      <img src="images/unnamed.jpg" alt="living room"/>
+      <blockquote>
+        <p>The living room is a 3d image with everything you would typicaly see in a real
+        livingroom.The living room was made in 2023 using blender
+      this drawing also includes a bouquet of flowers that Dana Elkaterji had 
+    hand drawn.</p>
+      </blockquote>  
+      <table>
+        <thead>
+          <tr>
+            <th>Starting Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>$300</td>
+          </tr>
+        </tbody>
+      </table> 
+      <button>Like</button> <button>Dislike</button> 
+    </section>
+  </main>
+<footer>
+  <div class="Myform">
+    </div>
+  
+      <div>
 
-    <!-- CSS -->
-    <!-- The following CSS has been added so that the page
-    doesn't look super awful -->
-    <!-- Ignore everything in the <style> tag for now -->
-    <!-- We will learn about CSS later in the course -->
-    <style>
-      /*
-        These styles set the font, font-size, and add a
-        little bit of space between lines
-      */
-      body {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.2rem;
-        line-height: 1.6;
-      }
-      /*
-        These styles make sure that any super wide images
-        don't overflow the page width
-      */
-      img {
-        width: 100%;
-        display: block;
-        margin: 0 auto;
-      }
-    </style>
-  </head>
-  <body>
-    <!--
+    <h2>Win Free Image!</h2>
+      <p> <strong>Win a free image </strong> from Dana by completing the following steps:</p>
+      <ol>
+        <li>Fill the form below</li>
+        <li>like and share my page on instagram</li>
+        <li>give a comment on my page</li>
+      </ol>
+      <p> Fill in this form and provide feedback in order to  <strong>Win a free image </strong> </p>
+      <form action="/server-page-handling-form-data" method="post">
+        <ul>
+          <li>
+            <label for="fullname">Name:</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Bob TheBaker"/>
+          </li>
+          <li>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="bobthebaker@gmail.com"/>
+          </li>
+          <li>
+            <input type="text" id="feedback" name="feedback">
+            <label for="feedback">feedback:</label>
+          </li>
+          
+          <li><button type="submit">Submit</button></li>
+        </ul>
+      </form>
+    </div>
+  
 
-      LIST ANY CITATIONS HERE
+  <img class="footerLogo" src="/images/dana.png" alt="logo">
 
-        * A
-        * B
+  <h3>Useful links</h3>
+  
+  <nav>
+   <ul>
+     <li>
+       <a href="Home.html">Home</a></li>
+     <li>
+        <a href="events.html">Events</a></li>
+     <li>
+       <a href="ContactUs.html">Contact Us</a></li>
+       
+   </ul>
+   </nav>
 
-    -->
-
-    <!--
-
-      YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
-
-    -->
-
-    <h1>Assignment 01 - To Be Completed</h1>
-  </body>
-</html>
+   <table>
+    <thead>
+      <tr>
+        <th>Contact Information</th>
+      </tr>
+      <tr>
+        <td>Instagram:</td>
+        <td>My Art Gallery</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Email:</td>
+        <td>MyArtGallery@gmail.com</td>
+      </tr>
+       <tr>
+        <td>Phone Number:</td>
+        <td>(613) 123 456</td>
+       </tr>
+    </tbody>
+  </table>
+  <h6>last update 9/27/2023</h6>
+  <h6>Copyright 2023 by Dana</h6>
+</footer>
